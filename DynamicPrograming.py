@@ -1,6 +1,6 @@
 from typing import List
 """
-    Dynamic Programing problems using DP
+    Dynamic Programing problems 
 """
 
 def fibonacci(n):
