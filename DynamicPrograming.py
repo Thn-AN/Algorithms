@@ -48,7 +48,7 @@ def unboundedKnapsack(amount: int, coins: list[int]):
         memo = next
     return memo[amount]
 
-def knapsack_01(weight: list[int], value: list[int], capacity):
+def knapsack_01(weight: list[int], value: list[int], capacity: int):
     """
     You can take at most one of each item — either you take it (1) or you don't (0) — hence the name "0-1".
     """
